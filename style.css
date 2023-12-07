@@ -1,35 +1,96 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      padding: 40px;
+    }
+  }
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
 
-  header, footer {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+header {
+  background: rgb(88, 248, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 248, 242, 1) 16%,
+    rgba(82, 174, 186, 0.6600841020001751) 67%,
+    rgba(135, 177, 237, 1) 100%
+  );
+  padding: 1em;
+  text-align: center;
+}
 
-  h1, h2 {
-    margin: 0;
-    font-size: 2em;
-  }
+main {
+  padding: 1em;
+}
 
-  p {
-    margin: 0;
-    font-size: 1.2em;
-  }
+section {
+  margin-bottom: 1em;
+}
 
-  
-  #kaasje {
-    color: rgb(10, 18, 18);
-  }
+footer {
+  background: rgb(88, 248, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 248, 242, 1) 16%,
+    rgba(82, 174, 186, 0.6600841020001751) 67%,
+    rgba(135, 177, 237, 1) 100%
+  );
+  text-align: center;
+  padding: 1em;
+}
 
-  #kaasje-div {
-    background-color: aquamarine;
-  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.kaas {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
