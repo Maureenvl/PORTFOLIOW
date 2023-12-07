@@ -1,3 +1,35 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  header, footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1, h2 {
+    margin: 0;
+    font-size: 2em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  
+  #kaasje {
+    color: rgb(10, 18, 18);
+  }
+
+  #kaasje-div {
+    background-color: aquamarine;
+  }
