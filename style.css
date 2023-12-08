@@ -18,6 +18,16 @@
     }
   }
 }
+a { color:white} /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+
+
 
 body {
   margin: 0;
@@ -55,6 +65,18 @@ footer {
   );
   text-align: center;
   padding: 1em;
+}
+
+footer button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(65, 166, 225);
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
 }
 
 .card {

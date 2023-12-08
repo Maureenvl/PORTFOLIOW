@@ -1,0 +1,12 @@
+<a style="text-decoration: none"
+zodat de lijntjes onder je linkjes weggaan
+
+
+
+a { color:white} /* Globally */
+a:visited { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+
+zodat al je woorden voor je linkjes wit blijven
