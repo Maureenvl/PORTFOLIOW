@@ -116,3 +116,25 @@ footer button {
   padding: 20px;
   box-sizing: border-box;
 }
+
+
+.ik {
+
+    color: rgb(255, 0, 0);
+    padding: 1em;
+    text-align: center;
+
+    
+}
+
+.ik button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 15%;
+  font-size: 18px;
+}
