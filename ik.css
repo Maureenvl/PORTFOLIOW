@@ -1,0 +1,180 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      padding: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    body {
+      font-size: 18px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      .container {
+        padding: 40px;
+      }
+    }
+  }
+  a { color:white} /* Globally */
+  
+  /* Each state */
+  
+  a:visited { text-decoration: none; color:rgb(255, 255, 255); }
+  a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+  a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+  a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+  
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  header {
+    background: rgb(88, 248, 242);
+    background: linear-gradient(
+      90deg,
+      rgba(88, 248, 242, 1) 16%,
+      rgba(82, 174, 186, 0.6600841020001751) 67%,
+      rgba(135, 177, 237, 1) 100%
+    );
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  section {
+    margin-bottom: 1em;
+  }
+  
+  footer {
+    background: rgb(88, 248, 242);
+    background: linear-gradient(
+      90deg,
+      rgba(88, 248, 242, 1) 16%,
+      rgba(82, 174, 186, 0.6600841020001751) 67%,
+      rgba(135, 177, 237, 1) 100%
+    );
+    text-align: center;
+    padding: 1em;
+  }
+  
+  footer button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: rgb(65, 166, 225);
+      text-align: center;
+      cursor: pointer;
+      width: 20%;
+      font-size: 18px;
+  }
+
+  .ik button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 18px;
+  }
+
+  body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Opens Sans", "Helvetica Neue", sans-serif;
+    margin-bottom: 0;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 3em 0;
+    }
+  }
+  
+  .masthead-heading,
+  .masthead-intro,
+  .content-footer > p,
+  .social {
+      text-align: center;
+  }
+  
+  .masthead {
+      padding: 6em 0;
+      background-image: url('https://images.unsplash.com/photo-1433360405326-e50f909805b3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250');
+      background-repeat: no-repeat;
+      background-size: cover;
+  /*     background-size: 100% auto; */
+      border-top: solid 1em #40529C;
+      margin-right: -0.5em;
+      margin-left: -0.5em;
+      margin-top: -0.5em;
+    }
+  
+  .masthead-intro {
+      margin-bottom: 0.25em;
+      color: #FFFFFF;
+      font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 2em;
+  }
+  
+  .masthead-heading {
+      margin-top: -0.2em;
+      color: #9AA6DB;
+      font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 6em;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #40529C;
+      letter-spacing: -0.02 em;
+  }
+  
+  .intro-section,
+  .location-section,
+  .questions-section {
+      max-width: 38em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+  }
+  
+  
+  
+  .intro-section > p,
+  .location-section > p,
+  .content-footer > p {
+      font-weight: 300;
+      letter-spacing: 0.05em;
+  }
+  
+  .questions {
+      color: #6676BA;
+      font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 2em 0 1em 0;
+  }
+  
+  .answers {
+      margin-left: 0em;
+  }
+  
+  
