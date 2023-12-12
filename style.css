@@ -3,6 +3,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
+    font-size: 10px;
     padding: 30px;
   }
 }
@@ -11,13 +12,19 @@
   body {
     font-size: 18px;
   }
+  .container {
+    font-size: 18px;
+    padding: 40px;
+  }
+}
 
   @media screen and (min-width: 1200px) {
     .container {
+      font-size: 32px;
       padding: 40px;
     }
   }
-}
+
 a { color:white} /* Globally */
 
 /* Each state */

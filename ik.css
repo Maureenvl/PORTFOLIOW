@@ -177,4 +177,28 @@
       margin-left: 0em;
   }
   
+  #face {
+    max-width: 20%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
   
+ #facepic{
+  text-align: center;
+ }
+
+    #facepic button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 15%;
+      font-size: 18px; 
+      text-align: center;
+    }
+
