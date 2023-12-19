@@ -49,9 +49,20 @@ header {
     rgba(88, 248, 242, 1) 16%,
     rgba(82, 174, 186, 0.6600841020001751) 67%,
     rgba(135, 177, 237, 1) 100%
+    
   );
+  background-image: url(/pic/sterretje.jpg);
+  background-size:cover;
   padding: 1em;
   text-align: center;
+  text-decoration:#fff;
+}
+header h1 {
+  color: #fff;
+}
+
+header p {
+  color: #fff;
 }
 
 main {
@@ -72,8 +83,18 @@ footer {
   );
   text-align: center;
   padding: 1em;
-
+  background-image: url(/pic/sterretje.jpg);
+  background-size:cover;
 }
+
+footer h2 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
 
 footer button {
     border: none;
@@ -85,6 +106,7 @@ footer button {
     cursor: pointer;
     width: 20%;
     font-size: 18px;
+
 }
 
 .card {
