@@ -7,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background: #0c192c;
+    background: #142c0c;
 }
 
 .container{
@@ -26,10 +26,10 @@ body{
     position: relative;
     width: 30px;
     height: 30px;
-    background: #4fc3dc;
+    background: #62dc4f;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #1bc4eb44,
+    box-shadow: 0 0 0 10px #93d7e744,
     0 0 50px #4fc3dc,
     0 0 100px #4fc3dc;
     animation: animate 15s linear infinite;
@@ -39,9 +39,9 @@ body{
 }
 .bubbles span:nth-child(even)
 {
-    background: #ff2d75;
+    background: #ff2d2d;
     box-shadow: 0 0 0 10px #ac184b44,
-    0 0 50px #ff2d75,
+    0 0 50px #ff452d,
     0 0 100px #ff2d75;
 }
 
